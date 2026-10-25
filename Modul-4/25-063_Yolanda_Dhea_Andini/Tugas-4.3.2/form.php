@@ -14,7 +14,6 @@ if (isset($_POST['surname']))
         echo '<h1>Invalid, correct the following errors:</h1>';
         foreach ($errors as $field => $error)
             echo "$field $error</br>";
-        // tampilkan kembali form
         include 'form.inc';
     }
     else
@@ -23,6 +22,5 @@ if (isset($_POST['surname']))
     }
 }
 else
-    // tampilkan kembali form
     include 'form.inc';
 ?>
