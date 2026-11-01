@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 20px 40px;
+    color: #333;
+}
+h2 {
+    color: #337ab7;
+    font-weight: normal;
+    font-size: 26px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 10px;
+}
+table.data {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin-top: 15px;
+}
+table.data th {
+    background-color: #d9edf7;
+    text-align: left;
+    padding: 10px;
+    font-size: 13px;
+    border: 1px solid #ddd;
+}
+table.data td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    color: #555;
+}
+table.form {
+    margin: 20px 0;
+}
+table.form td {
+    padding: 6px;
+}
+table.form td.label {
+    text-align: right;
+    font-weight: bold;
+    font-size: 13px;
+    width: 80px;
+}
+input[type=text] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #555;
+}
+a, input[type=submit] {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 32px;
+    line-height: 20px;
+    padding: 5px 12px;
+    color: white;
+    font-size: 13px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    vertical-align: middle;
+}
+.hijau {
+    background: linear-gradient(#6fb94a, #4c9a2a);
+}
+.oranye {
+    background: linear-gradient(#f58a2f, #e0560b);
+}
+.merah {
+    background: linear-gradient(#e8484f, #c01f28);
+}
+.merah:hover {
+    background: #8b0f14;
+}
+.tambah {
+    float: right;
+    margin-top: 12px;
+}
